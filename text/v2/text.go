@@ -22,8 +22,8 @@ import (
 
 	"golang.org/x/image/math/fixed"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/vector"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/vector"
 )
 
 // Face is an interface representing a font face.

@@ -21,11 +21,11 @@ import (
 	"syscall/js"
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/file"
-	"github.com/hajimehoshi/ebiten/v2/internal/gamepad"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/opengl"
-	"github.com/hajimehoshi/ebiten/v2/internal/hook"
+	"github.com/duplicants-ai/ebiten/internal/file"
+	"github.com/duplicants-ai/ebiten/internal/gamepad"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver/opengl"
+	"github.com/duplicants-ai/ebiten/internal/hook"
 )
 
 type graphicsDriverCreatorImpl struct {

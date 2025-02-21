@@ -25,9 +25,9 @@ import (
 	"github.com/jezek/xgb/randr"
 	"github.com/jezek/xgb/xproto"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/glfw"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/opengl"
+	"github.com/duplicants-ai/ebiten/internal/glfw"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver/opengl"
 )
 
 func (u *UserInterface) initializePlatform() error {

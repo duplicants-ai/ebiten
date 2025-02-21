@@ -57,7 +57,7 @@ jobs:
           cd /tmp
           git clone --depth=1 https://github.com/hajimehoshi/go-inovation
           cd go-inovation
-          go mod edit -replace=github.com/hajimehoshi/ebiten/v2=$GITHUB_WORKSPACE
+          go mod edit -replace=github.com/duplicants-ai/ebiten=$GITHUB_WORKSPACE
           go mod tidy
 
       - name: Xvfb
@@ -126,11 +126,11 @@ jobs:
           # TODO: Is there a way to create a complete list of Ebitengine sub-packages?
           echo 'package main' > main.go
           echo 'import (' >> main.go
-          echo '  _ "github.com/hajimehoshi/ebiten/v2"' >> main.go
-          echo '  _ "github.com/hajimehoshi/ebiten/v2/audio"' >> main.go
+          echo '  _ "github.com/duplicants-ai/ebiten"' >> main.go
+          echo '  _ "github.com/duplicants-ai/ebiten/audio"' >> main.go
           echo ')' >> main.go
           echo 'func main() {}' >> main.go
-          go mod edit -replace github.com/hajimehoshi/ebiten/v2=$GITHUB_WORKSPACE
+          go mod edit -replace github.com/duplicants-ai/ebiten=$GITHUB_WORKSPACE
           go mod tidy
           go mod vendor
           go build -v .

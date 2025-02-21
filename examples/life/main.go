@@ -10,7 +10,7 @@ import (
 	"log"
 	"math/rand/v2"
 
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 // World represents the game state.

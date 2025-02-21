@@ -21,7 +21,7 @@ import (
 	"math/rand/v2"
 	"testing"
 
-	"github.com/hajimehoshi/ebiten/v2/audio/internal/convert"
+	"github.com/duplicants-ai/ebiten/audio/internal/convert"
 )
 
 func TestStereoI16(t *testing.T) {

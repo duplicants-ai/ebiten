@@ -15,8 +15,8 @@
 package directx
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/shaderir"
 )
 
 type pipelineStateKey struct {

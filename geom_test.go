@@ -19,7 +19,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 func TestGeoMInit(t *testing.T) {

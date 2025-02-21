@@ -19,10 +19,10 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/builtinshader"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicscommand"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/duplicants-ai/ebiten/internal/builtinshader"
+	"github.com/duplicants-ai/ebiten/internal/graphics"
+	"github.com/duplicants-ai/ebiten/internal/graphicscommand"
+	"github.com/duplicants-ai/ebiten/internal/shaderir"
 )
 
 type Shader struct {

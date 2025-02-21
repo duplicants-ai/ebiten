@@ -16,7 +16,7 @@
 
 package main
 
-import "github.com/hajimehoshi/ebiten/v2"
+import "github.com/duplicants-ai/ebiten"
 
 type Game struct {
 	count int

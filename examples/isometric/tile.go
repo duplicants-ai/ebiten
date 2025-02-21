@@ -15,7 +15,7 @@
 package main
 
 import (
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 // Tile represents a space with an x,y coordinate within a Level. Any number of

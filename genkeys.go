@@ -457,7 +457,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 // A Key represents a keyboard key.
@@ -562,7 +562,7 @@ const eventKeysTmpl = `{{.License}}
 package event
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 type Key = ui.Key
@@ -582,7 +582,7 @@ const uiGLFWKeysTmpl = `{{.License}}
 package ui
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/glfw"
+	"github.com/duplicants-ai/ebiten/internal/glfw"
 )
 
 var uiKeyToGLFWKey = map[Key]glfw.Key{
@@ -632,7 +632,7 @@ const mobileAndroidKeysTmpl = `{{.License}}
 package ebitenmobileview
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 var androidKeyToUIKey = map[int]ui.Key{
@@ -650,7 +650,7 @@ const mobileIOSKeysTmpl = `{{.License}}
 package ebitenmobileview
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 var iosKeyToUIKey = map[int]ui.Key{

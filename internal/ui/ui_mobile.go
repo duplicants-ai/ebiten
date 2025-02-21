@@ -24,11 +24,11 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/gamepad"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicscommand"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
-	"github.com/hajimehoshi/ebiten/v2/internal/hook"
-	"github.com/hajimehoshi/ebiten/v2/internal/restorable"
+	"github.com/duplicants-ai/ebiten/internal/gamepad"
+	"github.com/duplicants-ai/ebiten/internal/graphicscommand"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/hook"
+	"github.com/duplicants-ai/ebiten/internal/restorable"
 )
 
 var (

@@ -19,10 +19,10 @@ import (
 	"image/color"
 	"log"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/hajimehoshi/ebiten/v2/vector"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/ebitenutil"
+	"github.com/duplicants-ai/ebiten/inpututil"
+	"github.com/duplicants-ai/ebiten/vector"
 )
 
 const (

@@ -19,7 +19,7 @@ import (
 	"syscall/js"
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/gamepaddb"
+	"github.com/duplicants-ai/ebiten/internal/gamepaddb"
 )
 
 var (

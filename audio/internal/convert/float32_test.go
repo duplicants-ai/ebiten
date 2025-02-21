@@ -21,7 +21,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/hajimehoshi/ebiten/v2/audio/internal/convert"
+	"github.com/duplicants-ai/ebiten/audio/internal/convert"
 )
 
 func randInt16s(n int) []int16 {

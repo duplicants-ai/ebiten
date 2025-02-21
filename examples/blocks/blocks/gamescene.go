@@ -23,12 +23,12 @@ import (
 	"math/rand/v2"
 	"strconv"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/colorm"
-	"github.com/hajimehoshi/ebiten/v2/examples/resources/images"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/hajimehoshi/ebiten/v2/text/v2"
-	"github.com/hajimehoshi/ebiten/v2/vector"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/colorm"
+	"github.com/duplicants-ai/ebiten/examples/resources/images"
+	"github.com/duplicants-ai/ebiten/inpututil"
+	"github.com/duplicants-ai/ebiten/text/v2"
+	"github.com/duplicants-ai/ebiten/vector"
 )
 
 var (

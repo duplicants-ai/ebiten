@@ -18,11 +18,11 @@ import (
 	"math"
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/atlas"
-	"github.com/hajimehoshi/ebiten/v2/internal/clock"
-	"github.com/hajimehoshi/ebiten/v2/internal/debug"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
-	"github.com/hajimehoshi/ebiten/v2/internal/hook"
+	"github.com/duplicants-ai/ebiten/internal/atlas"
+	"github.com/duplicants-ai/ebiten/internal/clock"
+	"github.com/duplicants-ai/ebiten/internal/debug"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/hook"
 )
 
 var (

@@ -20,7 +20,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/hajimehoshi/ebiten/v2/audio"
+	"github.com/duplicants-ai/ebiten/audio"
 )
 
 func TestInfiniteLoop(t *testing.T) {

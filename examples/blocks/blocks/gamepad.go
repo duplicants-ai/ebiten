@@ -17,8 +17,8 @@ package blocks
 import (
 	"fmt"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/inpututil"
 )
 
 type virtualGamepadButton int

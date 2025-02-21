@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/internal/atlas"
-	"github.com/hajimehoshi/ebiten/v2/internal/buffered"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/internal/atlas"
+	"github.com/duplicants-ai/ebiten/internal/buffered"
 )
 
 var gameUpdateCh = make(chan func())

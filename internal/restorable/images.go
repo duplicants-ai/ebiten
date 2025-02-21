@@ -20,9 +20,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/debug"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicscommand"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/debug"
+	"github.com/duplicants-ai/ebiten/internal/graphicscommand"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
 )
 
 // forceRestoration reports whether restoration forcibly happens or not.

@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/audio"
 	"github.com/gen2brain/mpeg"
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/audio"
 )
 
 type mpegPlayer struct {

@@ -22,11 +22,11 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
-	"github.com/hajimehoshi/ebiten/v2/internal/packing"
-	"github.com/hajimehoshi/ebiten/v2/internal/restorable"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/duplicants-ai/ebiten/internal/graphics"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/packing"
+	"github.com/duplicants-ai/ebiten/internal/restorable"
+	"github.com/duplicants-ai/ebiten/internal/shaderir"
 )
 
 var (

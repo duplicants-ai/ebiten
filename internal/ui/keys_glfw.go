@@ -19,7 +19,7 @@
 package ui
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/glfw"
+	"github.com/duplicants-ai/ebiten/internal/glfw"
 )
 
 var uiKeyToGLFWKey = map[Key]glfw.Key{

@@ -17,8 +17,8 @@ package atlas
 import (
 	"runtime"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/restorable"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/duplicants-ai/ebiten/internal/restorable"
+	"github.com/duplicants-ai/ebiten/internal/shaderir"
 )
 
 type Shader struct {

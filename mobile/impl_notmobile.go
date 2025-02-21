@@ -17,7 +17,7 @@
 package mobile
 
 import (
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 func setGame(game ebiten.Game, options *ebiten.RunGameOptions) {

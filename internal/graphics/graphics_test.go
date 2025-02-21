@@ -17,7 +17,7 @@ package graphics_test
 import (
 	"testing"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
+	"github.com/duplicants-ai/ebiten/internal/graphics"
 )
 
 func TestInternalImageSize(t *testing.T) {

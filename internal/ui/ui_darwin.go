@@ -23,11 +23,11 @@ import (
 
 	"github.com/ebitengine/purego/objc"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/cocoa"
-	"github.com/hajimehoshi/ebiten/v2/internal/glfw"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/metal"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/opengl"
+	"github.com/duplicants-ai/ebiten/internal/cocoa"
+	"github.com/duplicants-ai/ebiten/internal/glfw"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver/metal"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver/opengl"
 )
 
 var class_EbitengineWindowDelegate objc.Class

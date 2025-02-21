@@ -19,9 +19,9 @@ package opengl
 import (
 	"errors"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/opengl/gl"
+	"github.com/duplicants-ai/ebiten/internal/graphics"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver/opengl/gl"
 )
 
 type Image struct {

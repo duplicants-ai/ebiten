@@ -22,7 +22,7 @@ import (
 	"image"
 	_ "image/png"
 
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 //go:embed text.png

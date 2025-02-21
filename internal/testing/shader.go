@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/duplicants-ai/ebiten/internal/graphics"
+	"github.com/duplicants-ai/ebiten/internal/shaderir"
 )
 
 // ShaderProgramFill returns a shader source to fill the frambuffer.

@@ -15,7 +15,7 @@
 package shaderlistertest
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderlister/shaderlistertest2"
+	"github.com/duplicants-ai/ebiten/internal/shaderlister/shaderlistertest2"
 )
 
 //ebitengine:shadersource

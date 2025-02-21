@@ -27,16 +27,16 @@ import (
 	"log"
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/audio"
-	"github.com/hajimehoshi/ebiten/v2/audio/mp3"
-	"github.com/hajimehoshi/ebiten/v2/audio/vorbis"
-	"github.com/hajimehoshi/ebiten/v2/audio/wav"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	raudio "github.com/hajimehoshi/ebiten/v2/examples/resources/audio"
-	riaudio "github.com/hajimehoshi/ebiten/v2/examples/resources/images/audio"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/hajimehoshi/ebiten/v2/vector"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/audio"
+	"github.com/duplicants-ai/ebiten/audio/mp3"
+	"github.com/duplicants-ai/ebiten/audio/vorbis"
+	"github.com/duplicants-ai/ebiten/audio/wav"
+	"github.com/duplicants-ai/ebiten/ebitenutil"
+	raudio "github.com/duplicants-ai/ebiten/examples/resources/audio"
+	riaudio "github.com/duplicants-ai/ebiten/examples/resources/images/audio"
+	"github.com/duplicants-ai/ebiten/inpututil"
+	"github.com/duplicants-ai/ebiten/vector"
 )
 
 const (

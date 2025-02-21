@@ -20,8 +20,8 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/microsoftgdk"
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/microsoftgdk"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 type textInput struct {

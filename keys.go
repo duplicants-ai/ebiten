@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 // A Key represents a keyboard key.

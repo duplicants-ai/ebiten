@@ -20,10 +20,10 @@ import (
 	"math"
 	"testing"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/colorm"
-	t "github.com/hajimehoshi/ebiten/v2/internal/testing"
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/colorm"
+	t "github.com/duplicants-ai/ebiten/internal/testing"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 func abs(x int) int {

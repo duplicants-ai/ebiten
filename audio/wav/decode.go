@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hajimehoshi/ebiten/v2/audio"
-	"github.com/hajimehoshi/ebiten/v2/audio/internal/convert"
+	"github.com/duplicants-ai/ebiten/audio"
+	"github.com/duplicants-ai/ebiten/audio/internal/convert"
 )
 
 const (

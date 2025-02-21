@@ -20,12 +20,12 @@ import (
 	"io"
 	"log"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/audio"
-	"github.com/hajimehoshi/ebiten/v2/audio/wav"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	raudio "github.com/hajimehoshi/ebiten/v2/examples/resources/audio"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/audio"
+	"github.com/duplicants-ai/ebiten/audio/wav"
+	"github.com/duplicants-ai/ebiten/ebitenutil"
+	raudio "github.com/duplicants-ai/ebiten/examples/resources/audio"
+	"github.com/duplicants-ai/ebiten/inpututil"
 )
 
 const (

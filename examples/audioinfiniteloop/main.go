@@ -20,11 +20,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/audio"
-	"github.com/hajimehoshi/ebiten/v2/audio/vorbis"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	raudio "github.com/hajimehoshi/ebiten/v2/examples/resources/audio"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/audio"
+	"github.com/duplicants-ai/ebiten/audio/vorbis"
+	"github.com/duplicants-ai/ebiten/ebitenutil"
+	raudio "github.com/duplicants-ai/ebiten/examples/resources/audio"
 )
 
 const (

@@ -15,8 +15,8 @@
 package ebiten
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/builtinshader"
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/builtinshader"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 // Filter represents the type of texture filter to be used when an image is magnified or minified.

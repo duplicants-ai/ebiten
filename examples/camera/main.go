@@ -24,9 +24,9 @@ import (
 
 	"golang.org/x/image/math/f64"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	"github.com/hajimehoshi/ebiten/v2/examples/resources/images"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/ebitenutil"
+	"github.com/duplicants-ai/ebiten/examples/resources/images"
 )
 
 const (
@@ -163,7 +163,7 @@ func (g *Game) Draw(screen *ebiten.Image) {
 	// Draw each tile with each DrawImage call.
 	// As the source images of all DrawImage calls are always same,
 	// this rendering is done very effectively.
-	// For more detail, see https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2#Image.DrawImage
+	// For more detail, see https://pkg.go.dev/github.com/duplicants-ai/ebiten#Image.DrawImage
 	for _, l := range g.layers {
 		for i, t := range l {
 			op := &ebiten.DrawImageOptions{}

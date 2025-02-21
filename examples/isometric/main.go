@@ -17,7 +17,7 @@ package main
 import (
 	"log"
 
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 func main() {

@@ -18,9 +18,9 @@ import (
 	"image/color"
 	"testing"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	t "github.com/hajimehoshi/ebiten/v2/internal/testing"
-	"github.com/hajimehoshi/ebiten/v2/vector"
+	"github.com/duplicants-ai/ebiten"
+	t "github.com/duplicants-ai/ebiten/internal/testing"
+	"github.com/duplicants-ai/ebiten/vector"
 )
 
 func TestMain(m *testing.M) {

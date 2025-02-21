@@ -19,8 +19,8 @@ package ui
 import (
 	"math"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/gamepad"
-	"github.com/hajimehoshi/ebiten/v2/internal/glfw"
+	"github.com/duplicants-ai/ebiten/internal/gamepad"
+	"github.com/duplicants-ai/ebiten/internal/glfw"
 )
 
 var glfwMouseButtonToMouseButton = map[glfw.MouseButton]MouseButton{

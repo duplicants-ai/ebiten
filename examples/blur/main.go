@@ -20,8 +20,8 @@ import (
 	_ "image/jpeg"
 	"log"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/examples/resources/images"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/examples/resources/images"
 )
 
 const (
@@ -67,7 +67,7 @@ func (g *Game) Draw(screen *ebiten.Image) {
 			//
 			// This means that the final color is affected by the destination color when BlendSourceOver is used.
 			// This blend mode is the default mode. See how this is calculated at the doc:
-			// https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2#Blend
+			// https://pkg.go.dev/github.com/duplicants-ai/ebiten#Blend
 			//
 			// So if using the same alpha every time, the end result will sure be biased towards the last layer.
 			//

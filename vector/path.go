@@ -20,7 +20,7 @@ package vector
 import (
 	"math"
 
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 // Direction represents clockwise or counterclockwise.

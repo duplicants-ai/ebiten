@@ -19,7 +19,7 @@ package main
 import (
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 type Game struct{}

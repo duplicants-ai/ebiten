@@ -26,7 +26,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/gamepaddb"
+	"github.com/duplicants-ai/ebiten/internal/gamepaddb"
 )
 
 type dinputObjectType int

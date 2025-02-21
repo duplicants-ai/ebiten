@@ -17,8 +17,8 @@ package ebiten
 import (
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/gamepad"
-	"github.com/hajimehoshi/ebiten/v2/internal/vibrate"
+	"github.com/duplicants-ai/ebiten/internal/gamepad"
+	"github.com/duplicants-ai/ebiten/internal/vibrate"
 )
 
 // VibrateOptions represents the options for device vibration.

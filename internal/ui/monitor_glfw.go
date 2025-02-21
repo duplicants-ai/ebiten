@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/glfw"
+	"github.com/duplicants-ai/ebiten/internal/glfw"
 )
 
 // Monitor is a wrapper around glfw.Monitor.

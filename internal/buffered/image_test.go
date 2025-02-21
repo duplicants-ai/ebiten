@@ -18,13 +18,13 @@ import (
 	"image"
 	"testing"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/atlas"
-	"github.com/hajimehoshi/ebiten/v2/internal/buffered"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
-	"github.com/hajimehoshi/ebiten/v2/internal/restorable"
-	t "github.com/hajimehoshi/ebiten/v2/internal/testing"
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/atlas"
+	"github.com/duplicants-ai/ebiten/internal/buffered"
+	"github.com/duplicants-ai/ebiten/internal/graphics"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/restorable"
+	t "github.com/duplicants-ai/ebiten/internal/testing"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 func TestMain(m *testing.M) {

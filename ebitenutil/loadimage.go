@@ -19,7 +19,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 // NewImageFromReader loads from the io.Reader and returns ebiten.Image and image.Image.

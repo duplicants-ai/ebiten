@@ -26,8 +26,8 @@ import (
 	"golang.org/x/image/math/fixed"
 	"golang.org/x/text/language"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/vector"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/vector"
 )
 
 var _ Face = (*GoTextFace)(nil)

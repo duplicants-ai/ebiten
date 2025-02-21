@@ -17,7 +17,7 @@
 package pssl
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/duplicants-ai/ebiten/internal/shaderir"
 )
 
 func Compile(p *shaderir.Program) (vertexShader, pixelShader string) {

@@ -17,7 +17,7 @@ package hlsl
 import (
 	"fmt"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/duplicants-ai/ebiten/internal/shaderir"
 )
 
 func opString(op shaderir.Op) string {

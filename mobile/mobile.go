@@ -20,7 +20,7 @@
 package mobile
 
 import (
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 // SetGame sets a mobile game.

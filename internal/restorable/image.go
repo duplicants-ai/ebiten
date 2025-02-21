@@ -19,9 +19,9 @@ import (
 	"image"
 	"sort"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicscommand"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/graphics"
+	"github.com/duplicants-ai/ebiten/internal/graphicscommand"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
 )
 
 type Pixels struct {

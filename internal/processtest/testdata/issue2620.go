@@ -17,7 +17,7 @@
 package main
 
 import (
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 type Game struct{}

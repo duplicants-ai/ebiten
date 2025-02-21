@@ -20,7 +20,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 var (

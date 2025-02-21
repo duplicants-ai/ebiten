@@ -19,9 +19,9 @@ import (
 	"image/color"
 	"sync"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/internal/affine"
-	"github.com/hajimehoshi/ebiten/v2/internal/builtinshader"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/internal/affine"
+	"github.com/duplicants-ai/ebiten/internal/builtinshader"
 )
 
 // Dim is the dimension of a ColorM.

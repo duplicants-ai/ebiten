@@ -20,7 +20,7 @@ import (
 	"image"
 	"syscall/js"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
 )
 
 func download(buf *bytes.Buffer, mime string, path string) {

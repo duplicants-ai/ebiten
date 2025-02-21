@@ -23,9 +23,9 @@ import (
 	"log"
 	"math"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	"github.com/hajimehoshi/ebiten/v2/examples/resources/images"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/ebitenutil"
+	"github.com/duplicants-ai/ebiten/examples/resources/images"
 )
 
 const (

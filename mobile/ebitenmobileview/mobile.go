@@ -29,9 +29,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/internal/restorable"
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/internal/restorable"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 type SetGameNotifier interface {

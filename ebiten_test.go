@@ -17,7 +17,7 @@ package ebiten_test
 import (
 	"testing"
 
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 func TestScreenSizeInFullscreen(t *testing.T) {

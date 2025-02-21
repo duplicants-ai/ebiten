@@ -15,7 +15,7 @@
 package ebiten
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 // CursorModeType represents a render and coordinate mode of a mouse cursor.

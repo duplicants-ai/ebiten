@@ -17,7 +17,7 @@ package ebiten
 import (
 	"image/color"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/affine"
+	"github.com/duplicants-ai/ebiten/internal/affine"
 )
 
 // ColorMDim is the dimension of a ColorM.

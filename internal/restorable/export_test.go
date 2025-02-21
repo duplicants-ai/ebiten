@@ -15,7 +15,7 @@
 package restorable
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
 )
 
 // EnableRestorationForTesting forces to enable restoration for testing.

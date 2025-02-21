@@ -1,4 +1,4 @@
-module github.com/hajimehoshi/ebiten/v2
+module github.com/duplicants-ai/ebiten
 
 go 1.22.0
 

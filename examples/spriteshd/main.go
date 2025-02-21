@@ -23,10 +23,10 @@ import (
 	"math"
 	"math/rand/v2"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	"github.com/hajimehoshi/ebiten/v2/examples/resources/images"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/ebitenutil"
+	"github.com/duplicants-ai/ebiten/examples/resources/images"
+	"github.com/duplicants-ai/ebiten/inpututil"
 )
 
 const (
@@ -167,7 +167,7 @@ func (g *Game) Draw(screen *ebiten.Image) {
 	// the actual draw call to GPU is very few since these calls satisfy
 	// some conditions e.g. all the rendering sources and targets are same.
 	// For more detail, see:
-	// https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2#Image.DrawImage
+	// https://pkg.go.dev/github.com/duplicants-ai/ebiten#Image.DrawImage
 	w, h := ebitenImage.Bounds().Dx(), ebitenImage.Bounds().Dy()
 	for i := 0; i < g.sprites.num; i++ {
 		s := g.sprites.sprites[i]

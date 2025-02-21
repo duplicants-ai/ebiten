@@ -26,16 +26,16 @@ import (
 	"math"
 	"math/rand/v2"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/audio"
-	"github.com/hajimehoshi/ebiten/v2/audio/vorbis"
-	"github.com/hajimehoshi/ebiten/v2/audio/wav"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	raudio "github.com/hajimehoshi/ebiten/v2/examples/resources/audio"
-	"github.com/hajimehoshi/ebiten/v2/examples/resources/fonts"
-	resources "github.com/hajimehoshi/ebiten/v2/examples/resources/images/flappy"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/audio"
+	"github.com/duplicants-ai/ebiten/audio/vorbis"
+	"github.com/duplicants-ai/ebiten/audio/wav"
+	"github.com/duplicants-ai/ebiten/ebitenutil"
+	raudio "github.com/duplicants-ai/ebiten/examples/resources/audio"
+	"github.com/duplicants-ai/ebiten/examples/resources/fonts"
+	resources "github.com/duplicants-ai/ebiten/examples/resources/images/flappy"
+	"github.com/duplicants-ai/ebiten/inpututil"
+	"github.com/duplicants-ai/ebiten/text/v2"
 )
 
 var flagCRT = flag.Bool("crt", false, "enable the CRT effect")

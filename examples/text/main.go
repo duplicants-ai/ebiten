@@ -20,12 +20,12 @@ import (
 	"log"
 	"math"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	"github.com/hajimehoshi/ebiten/v2/examples/resources/fonts"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/hajimehoshi/ebiten/v2/text/v2"
-	"github.com/hajimehoshi/ebiten/v2/vector"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/ebitenutil"
+	"github.com/duplicants-ai/ebiten/examples/resources/fonts"
+	"github.com/duplicants-ai/ebiten/inpututil"
+	"github.com/duplicants-ai/ebiten/text/v2"
+	"github.com/duplicants-ai/ebiten/vector"
 )
 
 const (

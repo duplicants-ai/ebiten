@@ -22,9 +22,9 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/text/v2"
-	"github.com/hajimehoshi/ebiten/v2/vector"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/text/v2"
+	"github.com/duplicants-ai/ebiten/vector"
 	"golang.org/x/image/font/gofont/goregular"
 )
 

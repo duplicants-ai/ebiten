@@ -19,7 +19,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/hook"
+	"github.com/duplicants-ai/ebiten/internal/hook"
 )
 
 var monotonicClock atomic.Int64

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/inpututil"
+	"github.com/duplicants-ai/ebiten/text/v2"
 )
 
 const (

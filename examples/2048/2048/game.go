@@ -15,7 +15,7 @@
 package twenty48
 
 import (
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/duplicants-ai/ebiten"
 )
 
 const (

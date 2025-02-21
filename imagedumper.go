@@ -21,8 +21,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/debug"
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/debug"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 func datetimeForFilename() string {

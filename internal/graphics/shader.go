@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/shader"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/duplicants-ai/ebiten/internal/shader"
+	"github.com/duplicants-ai/ebiten/internal/shaderir"
 )
 
 func shaderSuffix(unit shaderir.Unit) (string, error) {

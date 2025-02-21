@@ -17,8 +17,8 @@
 package textinput
 
 import (
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 type textInput struct {

@@ -21,10 +21,10 @@ import (
 	_ "image/png"
 	"log"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	resources "github.com/hajimehoshi/ebiten/v2/examples/resources/images/shader"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/ebitenutil"
+	resources "github.com/duplicants-ai/ebiten/examples/resources/images/shader"
+	"github.com/duplicants-ai/ebiten/inpututil"
 )
 
 var (

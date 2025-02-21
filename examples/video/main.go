@@ -22,9 +22,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/audio"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/audio"
+	"github.com/duplicants-ai/ebiten/ebitenutil"
 )
 
 // mpgURL is a URL of an example MPEG-1 video. The license is the following:

@@ -34,11 +34,11 @@ import (
 	"golang.org/x/tools/go/ast/inspector"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir/glsl"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir/hlsl"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir/msl"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir/pssl"
+	"github.com/duplicants-ai/ebiten/internal/graphics"
+	"github.com/duplicants-ai/ebiten/internal/shaderir/glsl"
+	"github.com/duplicants-ai/ebiten/internal/shaderir/hlsl"
+	"github.com/duplicants-ai/ebiten/internal/shaderir/msl"
+	"github.com/duplicants-ai/ebiten/internal/shaderir/pssl"
 )
 
 var flagTarget = flag.String("target", "", "shader compilation targets separated by comma (e.g. 'glsl,glsles,hlsl,msl')")

@@ -25,7 +25,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/gamepaddb"
+	"github.com/duplicants-ai/ebiten/internal/gamepaddb"
 )
 
 type nativeGamepadsImpl struct {

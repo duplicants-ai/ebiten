@@ -25,7 +25,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/duplicants-ai/ebiten/internal/shaderir"
 )
 
 type variable struct {

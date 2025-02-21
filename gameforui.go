@@ -19,8 +19,8 @@ import (
 	"math"
 	"sync/atomic"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/atlas"
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/atlas"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 var screenFilterEnabled atomic.Bool

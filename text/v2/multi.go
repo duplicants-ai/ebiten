@@ -18,7 +18,7 @@ import (
 	"errors"
 	"unicode/utf8"
 
-	"github.com/hajimehoshi/ebiten/v2/vector"
+	"github.com/duplicants-ai/ebiten/vector"
 )
 
 var _ Face = (*MultiFace)(nil)

@@ -26,11 +26,11 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/examples/resources/images"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
-	t "github.com/hajimehoshi/ebiten/v2/internal/testing"
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten"
+	"github.com/duplicants-ai/ebiten/examples/resources/images"
+	"github.com/duplicants-ai/ebiten/internal/graphics"
+	t "github.com/duplicants-ai/ebiten/internal/testing"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 // maxImageSize is a maximum image size that should work in almost every environment.

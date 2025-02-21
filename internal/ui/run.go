@@ -22,8 +22,8 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicscommand"
-	"github.com/hajimehoshi/ebiten/v2/internal/thread"
+	"github.com/duplicants-ai/ebiten/internal/graphicscommand"
+	"github.com/duplicants-ai/ebiten/internal/thread"
 )
 
 func (u *UserInterface) Run(game Game, options *RunOptions) error {

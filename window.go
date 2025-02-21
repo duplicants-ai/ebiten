@@ -18,7 +18,7 @@ import (
 	"image"
 	"sync/atomic"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 // WindowResizingModeType represents a mode in which a user resizes the window.

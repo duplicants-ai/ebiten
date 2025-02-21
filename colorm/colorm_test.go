@@ -19,7 +19,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/hajimehoshi/ebiten/v2/colorm"
+	"github.com/duplicants-ai/ebiten/colorm"
 )
 
 func TestColorMInit(t *testing.T) {

@@ -17,9 +17,9 @@
 package opengl
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/glfw"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/opengl/gl"
+	"github.com/duplicants-ai/ebiten/internal/glfw"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver"
+	"github.com/duplicants-ai/ebiten/internal/graphicsdriver/opengl/gl"
 )
 
 type graphicsPlatform struct {

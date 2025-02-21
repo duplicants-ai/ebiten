@@ -17,7 +17,7 @@
 package ui
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/gamepad"
+	"github.com/duplicants-ai/ebiten/internal/gamepad"
 )
 
 func (u *UserInterface) updateInputState() error {

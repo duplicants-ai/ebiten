@@ -18,9 +18,9 @@ import (
 	"io/fs"
 	"sync"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/gamepad"
-	"github.com/hajimehoshi/ebiten/v2/internal/gamepaddb"
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/gamepad"
+	"github.com/duplicants-ai/ebiten/internal/gamepaddb"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 // AppendInputChars appends "printable" runes, read from the keyboard at the time Update is called, to runes,

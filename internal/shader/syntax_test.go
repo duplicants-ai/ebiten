@@ -19,8 +19,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/shader"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/duplicants-ai/ebiten/internal/shader"
+	"github.com/duplicants-ai/ebiten/internal/shaderir"
 )
 
 func compileToIR(src []byte) (*shaderir.Program, error) {

@@ -23,8 +23,8 @@ import (
 	"log"
 	"math/rand/v2"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	rmascot "github.com/hajimehoshi/ebiten/v2/examples/resources/images/mascot"
+	"github.com/duplicants-ai/ebiten"
+	rmascot "github.com/duplicants-ai/ebiten/examples/resources/images/mascot"
 )
 
 const (

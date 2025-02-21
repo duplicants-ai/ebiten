@@ -15,7 +15,7 @@
 package ebitenmobileview
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/ui"
+	"github.com/duplicants-ai/ebiten/internal/ui"
 )
 
 func SetUIView(uiview int64) error {

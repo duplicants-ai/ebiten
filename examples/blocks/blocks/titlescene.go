@@ -20,10 +20,10 @@ import (
 	"image/color"
 	_ "image/png"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	rblocks "github.com/hajimehoshi/ebiten/v2/examples/resources/images/blocks"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/duplicants-ai/ebiten"
+	rblocks "github.com/duplicants-ai/ebiten/examples/resources/images/blocks"
+	"github.com/duplicants-ai/ebiten/inpututil"
+	"github.com/duplicants-ai/ebiten/text/v2"
 )
 
 var imageBackground *ebiten.Image
